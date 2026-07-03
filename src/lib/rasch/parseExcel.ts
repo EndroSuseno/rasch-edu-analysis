@@ -68,16 +68,24 @@ export function parseExcelTemplate(arrayBuffer: ArrayBuffer): ParsedExcelData {
         
         switch (keyNorm) {
           case "sekolah":
+          case "namasekolah":
             identitas.sekolah = valStr;
             break;
           case "matapelajaran":
           case "mapel":
+          case "matapej":
+          case "mataujian":
             identitas.mataPelajaran = valStr;
             break;
           case "kelas":
             identitas.kelas = valStr;
             break;
           case "guru":
+          case "namaguru":
+          case "pengajar":
+          case "namapengajar":
+          case "gurupengampu":
+          case "gurumapel":
             identitas.guru = valStr;
             break;
           case "semester":
@@ -85,13 +93,18 @@ export function parseExcelTemplate(arrayBuffer: ArrayBuffer): ParsedExcelData {
             break;
           case "tahunajaran":
           case "ta":
+          case "tahunajar":
             identitas.tahunAjaran = valStr;
             break;
           case "tanggaltes":
           case "tanggal":
+          case "tgl":
+          case "tglujian":
+          case "tanggalujian":
             identitas.tanggalTes = valStr;
             break;
           case "jumlahsoal":
+          case "jmlsoal":
             identitas.jumlahSoal = parseInt(valStr, 10) || 25;
             break;
           case "kkm":

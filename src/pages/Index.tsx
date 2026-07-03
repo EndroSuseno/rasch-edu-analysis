@@ -77,8 +77,8 @@ export default function IndexPage() {
             R
           </div>
           <div>
-            <h1 className="text-sm font-black tracking-tight uppercase">Rasch Analysis Tool v2.1</h1>
-            <p className="text-[9px] text-blue-200 uppercase font-extrabold tracking-wider leading-none">Geometric Balance Theme</p>
+            <h1 className="text-sm font-black tracking-tight uppercase">RASCH-EDU APPLICATION</h1>
+            <p className="text-[10px] text-blue-200 font-medium tracking-wide leading-none mt-1">Analisis Asesmen Guru dengan Model Rasch</p>
           </div>
         </div>
         
@@ -170,6 +170,11 @@ export default function IndexPage() {
               <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
               Konvergensi: 0.00018 (Stable)
             </div>
+          </div>
+
+          {/* User Footer info */}
+          <div className="p-3.5 border-t border-slate-150 text-[10px] text-slate-400 font-semibold text-center bg-slate-50/30 shrink-0">
+            Rasch-Edu created by <span className="text-slate-600 font-bold block mt-0.5">Endro Suseno - SMK N 2 Tegal</span> @2026
           </div>
 
         </aside>
