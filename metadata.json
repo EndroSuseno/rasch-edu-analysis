@@ -1,0 +1,6 @@
+{
+  "name": "Rasch Model Analysis App",
+  "description": "Aplikasi evaluasi pembelajaran sekolah dengan analisis model Rasch dichotomous JMLE, Wright Map, reliabilitas PSR, dan deteksi kecurangan spasial.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
